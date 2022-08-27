@@ -1,0 +1,63 @@
+{
+  "name": "@potloc/spready",
+  "version": "0.0.0",
+  "private": false,
+  "license": "MIT",
+  "description": "Conditional spread operator for human.",
+  "author": "Mathieu Mazy <mathieu@potloc.com>",
+  "homepage": "https://github.com/potloc/spready#readme",
+  "repository": "https://github.com/potloc/spready",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/spready.umd.cjs",
+  "module": "./dist/spready.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/spready.js",
+      "require": "./dist/spready.umd.cjs"
+    }
+  },
+  "maintainers": [
+    {
+      "name": "Gabriel Santerre",
+      "email": "gabriel.santerre@potloc.com"
+    },
+    {
+      "name": "Jérôme Parent-Lévesque",
+      "email": "jerome.parent-levesque@potloc.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/potloc/spready/issues"
+  },
+  "keywords": [
+    "potloc",
+    "spready",
+    "conditional",
+    "operator",
+    "helper",
+    "util"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint .",
+    "test": "vitest",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.33.0",
+    "@vitest/coverage-c8": "0.22.1",
+    "eslint": "8.22.0",
+    "eslint-config-100terres": "1.0.0-alpha.6",
+    "prettier": "2.7.1",
+    "typescript": "4.7.4",
+    "vite": "3.0.9",
+    "vite-plugin-dts": "1.4.1",
+    "vitest": "0.22.1"
+  }
+}
