@@ -41,20 +41,36 @@
     "helper",
     "util"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+    "commit": "cz",
+    "commitlint": "commitlint",
+    "prepare": "husky install",
+    "release": "release-it",
+    "release:test": "release-it --dry-run",
     "build": "vite build",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
     "test": "vitest",
     "prettier:check": "prettier --check .",
-    "prettier:write": "prettier --write ."
+    "prettier:write": "prettier --write .",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "@commitlint/cli": "17.1.2",
+    "@commitlint/config-conventional": "17.1.0",
+    "@commitlint/cz-commitlint": "17.1.2",
+    "@release-it/conventional-changelog": "5.1.0",
     "@typescript-eslint/eslint-plugin": "5.33.0",
     "@vitest/coverage-c8": "0.22.1",
+    "commitizen": "4.2.5",
     "eslint": "8.22.0",
     "eslint-config-100terres": "1.0.0-alpha.6",
+    "husky": "8.0.1",
     "prettier": "2.7.1",
+    "release-it": "15.4.1",
     "typescript": "4.7.4",
     "vite": "3.0.9",
     "vite-plugin-dts": "1.4.1",

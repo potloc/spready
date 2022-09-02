@@ -18,6 +18,10 @@
   <a href="CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
+
+  <a href="http://commitizen.github.io/cz-cli/">
+    <img src="https://img.shields.io/badge/commitizen-friendly-blue.svg" alt="Commitizen friendly" />
+  </a>
 </p>
 
 ## A bit of context
