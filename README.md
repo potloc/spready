@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/@potloc/spready">
+    <img src="https://img.shields.io/npm/v/@potloc/spready.svg" alt="npm" />
+  </a>
+
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="@potloc/spready is released under the MIT license." />
   </a>
