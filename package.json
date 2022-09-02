@@ -13,7 +13,7 @@
   ],
   "main": "./dist/spready.umd.cjs",
   "module": "./dist/spready.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/spready.d.ts",
   "exports": {
     ".": {
       "import": "./dist/spready.js",
